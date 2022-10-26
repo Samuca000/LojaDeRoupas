@@ -1,0 +1,23 @@
+charset "UTF-8"
+/*Formatação da table*/
+table#novastags{
+			border: 1px solid #606060;
+			border-spacing:2px;
+			margin-left:auto;
+			margin-right:auto;
+			padding:10px;	
+}
+table#novastags td{
+			text-align:center;
+			padding:6px;
+			border: 1px solid #606060;
+}
+table#novastags td.tag{
+					color:white;
+					background-color:#0198ae;
+					font-weight:bold;
+					
+}
+table#novastags td.util{
+				color:#606060;
+				text-align:left;

@@ -1,0 +1,204 @@
+@charset "UTF-8";
+
+body{
+		background-color:rgba(170, 170, 170, 1);
+		color:black;
+}
+div#interface{
+		width:1300px;
+		margin:-20px auto 0px auto;
+		padding:10px;
+		box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+		height:1000px;
+		
+}
+header#cabeçalho{
+		border-bottom:2px #606060 solid;
+		height:180px;
+}
+header#cabeçalho h1{
+				font-family:arial,sans-serif;
+				font-size:30pt;
+				color:#00ba37;
+				padding:0px;
+				margin-bottom:5px;
+				margin-top:30px;
+}
+header#cabeçalho h2{
+				font-family:arial, sans-serif;
+				font-size:15pt;
+				color:#0198ae;
+				padding:0px;
+				margin-top:0px;
+}
+img#icone{
+				position:absolute;
+				left:1080px;
+				top:38px;
+				width:18%;
+				height:18%;
+}
+/*Menu config*/
+nav#menu{
+			display:block;
+}
+nav#menu ul{
+			list-style:none;
+			text-transform:uppercase;
+			position:absolute;	
+			top:-20px;
+			left:800px;
+}
+nav#menu li{
+			display:inline-block;
+			background-color:#dddddd;
+			padding:10px;
+			margin:2px;
+}
+nav#menu li:hover{
+	background-color:#0198ae;
+	
+}
+nav#menu a:hover{
+	color:white;
+}
+nav#menu h1{
+	display:none;
+}
+nav#menu a{
+	text-decoration:none;
+}
+article#ap h2{
+		background-color:#0198ae;
+}
+section#principal{
+			display:block;
+			width:700px;
+			float:left;
+			border-right:2px solid #606060;
+}
+
+		
+
+/*Formatação da table*/
+table#novastags{
+			top:-20px;
+			border: 1px solid #606060;
+			border-spacing:2px;
+			margin-left:20px;
+			margin-right:auto;
+			padding:10px;	
+}
+table#novastags td{
+			text-align:center;
+			padding:6px;
+			border: 1px solid #606060;
+}
+table#novastags td.tag{
+					color:white;
+					background-color:#0198ae;
+					font-weight:bold;
+					
+}
+table#novastags td.util{
+				color:#606060;
+				text-align:left;
+}
+
+/*Formatação imagens*/
+
+ul#album{
+	width:700px;
+	margin:0 auto;
+	padding:40px;
+	overflow:hidden;
+	list-style:none;
+	
+}
+
+ul#album li{
+	float:left;
+	width:200px;
+	height:200px;
+	margin:10px;
+	border:4px solid white;
+	background-color:#000000;
+	box-shadow:1px 1px 3px rgba(0,0,0,.4);
+	-webkit-transition:all 4.s ease-in;
+}
+ul#album li:hover{
+-webkit-transform:scale(2);
+}
+ul#album li#foto01{
+	background:url('../_imagens/foto01.jpg') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000
+}
+ul#album li#foto01:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+ul#album li#foto02{
+	background:url('../_imagens/foto02.jpg') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000;
+}
+ul#album li#foto02:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+ul#album li#foto03{
+	background:url('../_imagens/foto03.jpg') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000;
+	
+}
+ul#album li#foto03:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+ul#album li#foto04{
+	background:url('../_imagens/foto04.png') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000;
+}
+ul#album li#foto04:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+ul#album li#foto05{
+	background:url('../_imagens/foto05.png') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000;
+}
+ul#album li#foto05:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+ul#album li#foto06{
+	background:url('../_imagens/foto06.png') no-repeat;
+	background-size:400px 400px;
+	background-color:#000000;
+}
+ul#album li#foto06:hover{
+	background-position:0px 0px;
+	background-size:200px 200px;
+}
+section#fotosP span{
+	color:white;
+}
+footer#rodape{
+					clear:both;
+					text-align:center;
+					border-top:2px solid #606060;
+}
+section#history h1{
+		background-color:#33ffff;
+		display:block;
+		
+}
+section#history p{	 
+	text-align:justify; 
+	text-indent:25px;
+		
+}

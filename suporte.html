@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>ShopPet</title>
+		<link rel="stylesheet" type="text/css" href="_css/estilos.css"/>
+	
+	</head>
+
+	<script language="javascript" src="_javascript/trocaimagem.js">
+
+	</script>
+	
+	<body>
+	
+		<div id="interface">
+		
+			<header id="cabeçalho">
+			
+				<hgroup>
+					<h1>
+						New clothes
+					</h1>
+					<h2>A maior loja de roupas do Brasil!</h2>
+				</hgroup>
+				<img id="icone" src="_imagens/logo_principal.png"/>
+				
+				
+				
+				<nav id="menu">
+					<h1>Principal menu</h1>
+						<ul>
+							<li><a href="index.html">Voltar</a></li>
+							<li><a href="suporte.html">Suporte</a></li>
+							<li><a href="sobre.html">sobre-nós</a></li>																
+						</ul>
+				
+				
+				
+				
+				</nav>
+				
+			</header>
+<section>
+<article>
+
+
+
+
+<h3>Mande sua mensagem</h3>
+<form method="post" id="contato" action="action.php">
+	<fieldset>
+		<legend>Identificação do usuário</legend>
+
+		<p>Nome:<input type:text name="tnome" id="cNome" size="30" maxlength="30" placeholder="Nome completo"/></p>
+		<p>Senha:<input type="password" name="tSenha" id="cSenha" placeholder="Senha"/></p>
+		<p>E-mail:<input type="email" name="tMail" id="cMail"/></p>
+		<fieldset id="sexo"><legend>Sexo:</legend>
+			<input type="radio" name="tSexo" id="cMasc"/><label for="cMasc">Masculino</label>
+			<input type="radio" name="tSexo" id="cFemi"/><label for="cFemi">Feminino</label>
+			
+			</fieldset>
+		<p>Data de nascimento:<input type="date" name="tData" id="cData"></p>
+	</fieldset>
+	
+	
+	
+	<fieldset>
+	<legend>Mensagem do usuário:</legend>
+	Tipo de mensagem:<input type="text" name="tTipomsg" id="cTipomsg"/><br/><br/>
+	
+	Mensagem:<textarea name="tMsg" id="cMsg" cols="30" rows="4"></textarea>
+	</fieldset>
+	<input type="submit" value="Enviar"/>
+
+</form>
+
+</article>
+</section>
+</body>
+
+<footer id="rodape">	<p>Copyright - by samuel carvalho<br/>
+	Curta nosso instragram Samuel Santos Carvalho</p></footer>
+
+
+</html>
